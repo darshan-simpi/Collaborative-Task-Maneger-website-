@@ -1,0 +1,93 @@
+Task:
+Build a "Collaborative Task Manager" web application with user authentication and role-based access control. 
+
+Requirements:
+Frontend (React.js & Tailwind CSS):
+Create a modern, responsive UI with the following pages:
+
+
+Authentication (Signup/Login with JWT-based session management).
+
+
+Dashboard displaying:
+
+
+A list of tasks assigned to the logged-in user.
+
+
+A list of tasks created by the user (if they are a manager).
+
+
+Task Management page with:
+
+
+A form to create new tasks.
+
+
+Options to edit, delete, and mark tasks as completed.
+
+
+Use React Context API or a state management library (Redux/Zustand).
+
+
+Implement dark mode toggle.
+
+
+Backend (Node.js & Express):
+Create a RESTful API with:
+
+
+Authentication (JWT-based login/signup).
+
+
+Role-based access control (RBAC):
+
+
+Manager: Can create, assign, and edit tasks for users.
+
+
+User: Can view and update the status of their assigned tasks.
+
+
+CRUD operations for tasks.
+
+
+Activity logs (store task changes in a separate collection/table).
+
+
+Use PostgreSQL (with Sequelize) or MongoDB (with Mongoose).
+
+
+Implement basic rate limiting (to prevent spam API requests).
+
+
+Bonus Challenges (Optional, for Extra Points):
+Implement real-time task updates using WebSockets (Socket.io).
+
+
+Add drag-and-drop functionality for changing task statuses.
+
+
+Optimize API performance with pagination for task lists.
+
+
+
+Setup and Submission Guidelines
+Setup:
+Candidates are free to use their preferred AI, frameworks and libraries, but the project should be functional, with clear setup instructions.
+Submission:
+GitHub Repository: Include all code, with clear comments and documentation.
+ReadMe File: Instructions on running the project, an overview of features implemented, and a brief explanation of any AI models used.
+AI Model Documentation: If an AI feature is implemented, include a short note on how it works and the data or model used.
+Demo: Each candidate should record a 5-minute screen-share video (or provide a write-up if video isn’t possible) walking through their web app and explaining the functionality, design choices, and any AI integration.
+
+
+
+Evaluation Criteria:
+Code structure and maintainability
+API security (JWT, role-based access)
+UI design and responsiveness 
+State management and performance optimization
+Creativity in implementing bonus features
+
+ 
