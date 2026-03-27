@@ -49,6 +49,3 @@ pnpm run dev
 
 ---
 
-## 🤖 AI Model Documentation
-
-*Note: As per the specific problem statement of the "Collaborative Task Manager", no external AI models (e.g., LLMs, generative APIs) were utilized or required for this web application. To demonstrate advanced technical competency, the development focus was heavily dedicated toward fulfilling the complex **Bonus Requirements** instead, specifically implementing real-time bidirectional networking via WebSockets and intricate client-side Drag-and-Drop state reconciliation.*
